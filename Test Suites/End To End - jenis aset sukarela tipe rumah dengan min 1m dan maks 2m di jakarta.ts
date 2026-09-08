@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>End To End - jenis aset sukarela tipe rumah dengan min 1m dan maks 2m di jakarta</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>66996407-f836-4f69-bd30-d079d89fd49a</testSuiteGuid>
+   <testCaseLink>
+      <guid>a33292e6-a45a-4047-9660-445c7d842084</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_FILTER_JENIS_ASET</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>80b6bb0a-11ba-401b-accc-4f91e8a6d514</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0f82ae2e-8e4c-4e17-9757-2928fbd99110</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>&quot;sukarela&quot;</value>
+         <variableId>e223240e-c305-4055-9bd4-76af72f1608b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>&quot;Rumah&quot;</value>
+         <variableId>20d6b197-f97d-4b82-b481-8bee9ad0a499</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>&quot;1M&quot;</value>
+         <variableId>b9e6a473-189c-4fc1-bb8f-e6a907b8259f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>&quot;2M&quot;</value>
+         <variableId>634fee1c-df55-49e8-b4e4-207cede2708d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>&quot;Jakarta&quot;</value>
+         <variableId>3679693e-d161-41f3-a2e7-1bd32e71f7dc</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

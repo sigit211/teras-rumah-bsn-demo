@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Flag untuk menghentikan eksekusi suite setelah kegagalan.</description>
+      <initValue>false</initValue>
+      <name>STOP_SUITE</name>
+      <protected>false</protected>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Folder penyimpanan screenshot dan dump layar.</description>
+      <initValue>'Screenshot/'</initValue>
+      <name>SCREENSHOT_PATH</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Border color highlight object yang akan di screenshot</description>
+      <initValue>'#FF0000'</initValue>
+      <name>BORDER_COLOR</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Prefix package flow yang ditampilkan pada lokasi error.</description>
+      <initValue>['terasrumah']</initValue>
+      <name>FLOW_PRE_FIXES</name>
+      <protected>false</protected>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Path opsional ke local.properties atau folder konfigurasinya.</description>
+      <initValue>'E:\\dev\\projects\\demo-bsn\\local.properties'</initValue>
+      <name>LOCAL_PROPERTIES_PATH</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Aktifkan integrasi hasil test ke TestRail.</description>
+      <initValue>true</initValue>
+      <name>TESTRAIL_INTEGRATION</name>
+      <protected>false</protected>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Konfigurasi TestRail; credential sebaiknya dioverride dari local.properties.</description>
+      <initValue>[('TESTRAIL_PROJECT_NAME') : 'Teras Rumah', ('TESTRAIL_TEST_PLAN_ID') : 'R26']</initValue>
+      <name>TESTRAIL_PROPERTIES</name>
+      <protected>false</protected>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Nama test run opsional.</description>
+      <initValue>''</initValue>
+      <name>TESTRUN_NAME</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Base URL API yang dapat dioverride dari local.properties.</description>
+      <initValue>''</initValue>
+      <name>BASE_URL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Credential user legacy.</description>
+      <initValue>[:]</initValue>
+      <name>USER_ADMIN</name>
+      <protected>false</protected>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Timeout default untuk aksi web dalam detik.</description>
+      <initValue>3</initValue>
+      <name>TIMEOUT</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Timeout default untuk aksi mobile dalam detik.</description>
+      <initValue>5</initValue>
+      <name>LONG_TIMEOUT</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Batas maksimum waktu tunggu elemen dalam detik.</description>
+      <initValue>15</initValue>
+      <name>MAX_WAIT_SECONDS</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,29 @@
+=== TEST SUITE START ===
+timestamp=2026-09-08 21:49:50.049
+suiteName=End To End - jenis aset ayda tipe perkantoran dengan min 2m dan maks 5m di jakarta
+
+>>> TEST CASE START
+timestamp=2026-09-08 21:49:50.429
+testcaseName=Test Cases/TC_FILTER_JENIS_ASET
+testcaseId=Test Cases/TC_FILTER_JENIS_ASET
+
+>>> TEST CASE END
+timestamp=2026-09-08 21:50:17.660
+testcaseName=Test Cases/TC_FILTER_JENIS_ASET
+testcaseId=Test Cases/TC_FILTER_JENIS_ASET
+status=PASSED
+durationMs=27234
+variables:
+  - searchLocation=Jakarta
+  - testcaseName=Filter Jenis Aset
+  - testcaseProperties=Screenshot/Filter Jenis Aset/ayda/verifikasi halaman utama, C46, PASSED, 7022, Screenshot/Filter Jenis Aset/ayda/pilih sub menu, C47, PASSED, 2436, Screenshot/Filter Jenis Aset/ayda/pilih filter, C49, PASSED, 10335, Screenshot/Filter Jenis Aset/ayda/verifikasi hasil filter, C50, PASSED, 594
+  - propertyType=Perkantoran
+  - minPrice=2M
+  - listingType=ayda
+  - maxPrice=5M
+
+=== TEST SUITE END ===
+timestamp=2026-09-08 21:50:34.105
+suiteName=End To End - jenis aset ayda tipe perkantoran dengan min 2m dan maks 5m di jakarta
+totalDurationMs=44075
+
